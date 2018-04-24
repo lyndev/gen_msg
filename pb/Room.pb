@@ -1,5 +1,5 @@
 
-µ
+ 
 
 Room.protoRoomPlayer.proto"H
 KeyMoveData
@@ -56,25 +56,30 @@ roomNumber (
 ReqLeaveRoom 
 roomInfo (2.Room.RoomInfo"
 MsgID
-eMsgID»•	"Q
+eMsgID»•	" 
 ZJH_AddScore
 compareState (
 addScoreCount (
-currentTimes ("g
+currentTimes (
+currentCellScore (
+currentTotalScore (
+currentPlayTimes ("g
 ZJH_CompareCard
 comparePlayerId (	
 compareResult (
 cards (	
 comparedCards	 (	"
 ZJH_LookCard
-cards (	"²
+cards (	"Í
 Action
 
 actionType (
 playerId (	(
 zjh_addScore (2.Room.ZJH_AddScore.
 zjh_comparecard (2.Room.ZJH_CompareCard(
-zjh_lookcard	 (2.Room.ZJH_LookCard"A
+zjh_lookcard	 (2.Room.ZJH_LookCard
+zjh_followForever
+ ("A
 	ReqAction
 actions (2.Room.Action"
 MsgID

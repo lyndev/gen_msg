@@ -75,9 +75,12 @@ message ReqLeaveRoom{
 }
 
 message ZJH_AddScore {
-	optional int32 compareState  = 1; // 比牌状态
-	optional int32 addScoreCount = 3; // 加注数目
-	optional int32 currentTimes  = 5; // 当前倍数
+	optional int32 compareState      = 1; // 比牌状态
+	optional int32 addScoreCount     = 3; // 加注数目
+	optional int32 currentTimes      = 5; // 当前倍数
+	optional int32 currentCellScore  = 6; // 当前桌面单元注
+	optional int32 currentTotalScore = 7; // 当前桌面总注
+	optional int32 currentPlayTimes  = 8; // 当前轮数
 }
 
 message ZJH_CompareCard {
@@ -115,6 +118,7 @@ message Action{
 	optional ZJH_AddScore zjh_addScore       = 5;
 	optional ZJH_CompareCard zjh_comparecard = 7;
 	optional ZJH_LookCard zjh_lookcard       = 9;
+	optional bool zjh_followForever       	 = 10;
 }
 
 message ReqAction{
